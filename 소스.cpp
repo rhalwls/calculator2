@@ -12,7 +12,6 @@ int main() {
 
 	while (c != '.') {
 		switch (c) {
-
 		case '+':
 			result = a + b;
 			break;
@@ -23,18 +22,11 @@ int main() {
 			result = a * b;
 			break;
 		case '/':
-			if (b == 0) {
-				break;
-			}
 			result = a / b;
 			break;
 		case '%':
-			if (b == 0) {
-				break;
-			}
 			result = a % b;
 			break;
-
 		default:
 			break;
 		}
