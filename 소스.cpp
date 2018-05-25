@@ -21,6 +21,9 @@ int main() {
 		case '*':
 			result = a * b;
 			break;
+		case '/':
+			result = a / b;
+			break;
 		default:
 			break;
 		}
